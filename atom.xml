@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://blog.oiercraft.top</id>
+    <title>OIer Craft&apos;s Blog</title>
+    <updated>2023-08-04T09:11:46.427Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://blog.oiercraft.top"/>
+    <link rel="self" href="https://blog.oiercraft.top/atom.xml"/>
+    <subtitle>&lt;b&gt;自由 / 开放 / 包容&lt;/b&gt;</subtitle>
+    <logo>https://blog.oiercraft.top/images/avatar.png</logo>
+    <icon>https://blog.oiercraft.top/favicon.ico</icon>
+    <rights>All rights reserved 2023, OIer Craft&apos;s Blog</rights>
+    <entry>
+        <title type="html"><![CDATA[新人指南]]></title>
+        <id>https://blog.oiercraft.top/post/xin-ren-zhi-nan/</id>
+        <link href="https://blog.oiercraft.top/post/xin-ren-zhi-nan/">
+        </link>
+        <updated>2023-07-06T10:57:32.000Z</updated>
+        <summary type="html"><![CDATA[<p>欢迎来到 OIerCraft 服务器，这里是新手指南。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>欢迎来到 OIerCraft 服务器，这里是新手指南。</p>
+<!-- more -->
+<h2 id="开始游玩">开始游玩</h2>
+<p>服主是 ReverBer，人称老王。</p>
+<p>目前 OIercraft 是三周目（OIercraft III）。</p>
+<p>QQ 群号：865811340。</p>
+<h3 id="进入服务器">进入服务器</h3>
+<p>刚进入服务器，你会无法移动，这是因为服务器使用了 <code>authme</code> 插件，使用命令 <code>/register 密码 重复密码</code> 以注册，下次登陆用 <code>/login</code> 密码。如果登陆时间过长会被踢出服务器，这时不用着急，重新进入服务器即可。</p>
+<p>理论上主城空余地皮或主城周边区域均可建房，然而由于主城过度开发，矿物较为缺乏（？），建议到离主城有一定距离的位置定居。同时，强烈建议在家处设置传送点（home），便于日后回家。关于设置传送点，见“常用命令”。</p>
+<p>注意：后期出生点可能会炸空置域（真的能有能力炸空置域吗），因此真的不建议直接将房子或重要财物放在主城。</p>
+<p>同时你也必须遵守规则。你的行为需要遵守 <a href="../oic-rule">OIC 法典</a>，否则将会受到相应处罚（？）。</p>
+<h3 id="主要插件">主要插件</h3>
+<p>本服为纯净生存，指不添加领地等插件，只保留基础插件，如 <code>tpa</code> 等，方便玩家游玩。</p>
+<p>下面是一些重要插件：</p>
+<ul>
+<li>
+<p><strong>Authme</strong><br>
+用于保存玩家登录信息。</p>
+</li>
+<li>
+<p><strong>AdvancedMotd</strong><br>
+用于显示服务器信息</p>
+</li>
+<li>
+<p><strong>Coreprotect</strong><br>
+可以记录玩家的活动，如开箱子或破坏方块，可以查出恶意破坏的玩家。<br>
+所以如果你的个人财产受到损害请及时联系老王帮你查询。</p>
+</li>
+<li>
+<p><strong>Ess 基础插件</strong><br>
+提供服务器基础指令。</p>
+</li>
+<li>
+<p><strong>Skins</strong><br>
+在离线模式下显示皮肤。</p>
+</li>
+<li>
+<p><strong>Tabtps</strong><br>
+用于显示服务器的 Tps 和 Mspt 等。</p>
+</li>
+<li>
+<p><strong>箱子锁</strong><br>
+将箱子（门、熔炉等）上锁，使得他人无法打开或破坏。<br>
+使用方法：用告示牌右键点击箱子即可上锁。</p>
+</li>
+<li>
+<p><strong>QuickShop</strong><br>
+商店插件，用于玩家之间交易。<br>
+<strong>使用方法</strong>：<br>
+卖：用你要卖的东西左键点击箱子，在聊天框内输入单价，随后放入物品即可；<br>
+买：左键点击箱子并在聊天框内输入数量即可。<br>
+<strong>可以在系统商店卖矿物获得游戏币。</strong></p>
+</li>
+</ul>
+<h3 id="常用命令">常用命令</h3>
+<ul>
+<li>
+<p><code>/tpa &lt;name&gt;</code><br>
+请求传送到名字为 <code>&lt;name&gt;</code> 的玩家所在的位置。</p>
+</li>
+<li>
+<p><code>/tpahere &lt;name&gt;</code><br>
+请求把名字为 <code>&lt;name&gt;</code> 的玩家传送到你所在的位置。</p>
+</li>
+<li>
+<p><code>/sethome &lt;name&gt;</code><br>
+将当前所在位置设置为 home，名字为 <code>&lt;name&gt;</code>。</p>
+</li>
+<li>
+<p><code>/home &lt;name&gt;</code><br>
+传送到名字为 <code>&lt;name&gt;</code> 的 home。</p>
+</li>
+<li>
+<p><code>/rmhome &lt;name&gt;</code><br>
+删除名字为 <code>&lt;name&gt;</code> 的 home。</p>
+</li>
+<li>
+<p><code>/back</code><br>
+回到上一次传送的地点。注意无法回到上次死亡地点。</p>
+</li>
+<li>
+<p><code>/tell &lt;name&gt; &lt;message&gt;</code><br>
+向名字为 <code>&lt;name&gt;</code> 的玩家私信。</p>
+</li>
+<li>
+<p><code>/pay &lt;name&gt; &lt;money&gt;</code><br>
+向名字为 <code>&lt;name&gt;</code> 的玩家转账，转 <code>&lt;money&gt;</code> 游戏币。</p>
+</li>
+<li>
+<p><code>/tpr</code><br>
+随机传送。</p>
+</li>
+<li>
+<p><code>/co i</code><br>
+CoreProtect 查询命令，输入一次进入查询模式，再输入一次退出。<br>
+在查询模式下，左键点击方块可以查询到方块放置 / 摧毁记录（如果要查询位置没有方块需放置一个），右键点击方块可以查询箱子等的放入 / 取出记录。<br>
+如图为查询的效果：</p>
+</li>
+<li>
+<p><code>/spawn </code><br>
+回到服务器出生点。</p>
+</li>
+</ul>
+<hr>
+<h2 id="关于服务器">关于服务器</h2>
+<p>服务器官网：<a href="https://oiercraft.top">https://oiercraft.top</a></p>
+<h3 id="软件信息">软件信息</h3>
+<p>服务器版本为 Java 1.18.2，无正版验证， 基于 Spigot 核心开服。</p>
+<p>目前服务器运行在 rh2288hv2 fusionserver。</p>
+<h3 id="硬件信息">硬件信息</h3>
+<p>huawei rh2288hv2 e5 2690*2 88RAM</p>
+<h2 id="帮助我们改进">帮助我们改进</h2>
+<p>如果你对服务器机制有什么疑问，请联系 ReverBer。</p>
+<p>如果你对服务器有建议，请联系 ReverBer。修改游戏机制或添加新的插件之类之类，如果我认为有必要，会在群里发起投票。</p>
+<p>就是这样！每个人都是 OIerCraft 的一份子，OIerCraft 实施表决制。</p>
+<p><strong>火速进入服务器开始游玩！</strong></p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[OIC 法典]]></title>
+        <id>https://blog.oiercraft.top/post/oic-rule/</id>
+        <link href="https://blog.oiercraft.top/post/oic-rule/">
+        </link>
+        <updated>2021-11-05T13:53:16.000Z</updated>
+        <content type="html"><![CDATA[<h3 id="oic-服务器条例">OIC 服务器条例</h3>
+<h4 id="第一章-总则">第一章 总则</h4>
+<ol>
+<li>为维护 OIC 服务器秩序，保证游戏平衡、公平，制定本条例。</li>
+<li>本条例所称“玩家”，是指在 OIC 注册，并实际游玩过 OIC 的 MC 账号（ID）及其实际操纵者。</li>
+<li>本条例所称”管理员“，是指 OIC 服务器管理委员会成员。其名单会定期在服务器群内公布。</li>
+<li>本条例所称”管理组“，是指 OIC 服务器管理委员会。</li>
+<li>本条例所称“机器”，是指可以半自动或自动量产某类物资的设施。</li>
+<li>本条例所称“建筑”，是指玩家建造的用于居住、观赏等行为的设施。</li>
+</ol>
+<h4 id="第二章-玩家">第二章 玩家</h4>
+<ol>
+<li>
+<p>服务器不禁止玩家的一切作弊行为，包括但不限于外挂、利用游戏特性或服务器 BUG 来刷物资（如 1.16 海豚，1.17 铁砧）等。</p>
+<p>前款所称”外挂”，包括但不限于：</p>
+<ul>
+<li>飞行。</li>
+<li>杀戮光环。</li>
+<li>击退抵抗。</li>
+</ul>
+</li>
+<li>
+<p>玩家有下列行为之一的，立即永久封禁 ID。</p>
+<ul>
+<li>引战。</li>
+<li>无理由攻击其他玩家。</li>
+<li>守尸。</li>
+<li>使用 TNT、生物、末影水晶，等，未经建筑或机器所有人同意，损坏建筑或机器且行为恶劣，损坏程度大，情节严重的。</li>
+<li>封锁他人设施的。</li>
+<li>故意使得服务器延迟增大的。</li>
+<li>未经允许取走他人私有物资，且情节特别严重的。</li>
+<li>单月触犯本条例十五次及以上的。</li>
+<li>拒不递交罚款的。</li>
+<li>其它管理组规定的行为。</li>
+</ul>
+</li>
+<li>
+<p>玩家有下列行为之一的，临时封禁 ID 10 天以上，300 天以下。</p>
+<ul>
+<li>单月触犯三次本条例。</li>
+<li>故意损坏建筑或机器但情节较轻的。</li>
+<li>未经允许取走他人私有物资，且数额较大，情节严重的。</li>
+<li>其它管理组规定的行为。</li>
+</ul>
+</li>
+<li>
+<p>玩家单月触犯三次本条例的，在执行本章第三条的处罚外，没收违反者所有游戏币。</p>
+</li>
+<li>
+<p>玩家有下列行为的，处以 20000 游戏币以下的数额不定的罚款：</p>
+<ul>
+<li>未经允许取走他人私有物资但情节轻微的。</li>
+<li>故意损坏建筑或机器但情节较轻的，在执行本章第三条的处罚时，由管理组决定同时除以罚款。</li>
+<li>其它管理组规定的行为。</li>
+</ul>
+</li>
+</ol>
+<h4 id="第三章-管理员">第三章 管理员</h4>
+<ol>
+<li>
+<p>管理员应当秉持“玩家至上”的态度，认真服务玩家。</p>
+</li>
+<li>
+<p>管理员不得利用职权便利（OP），获得不正当财产。若有此行为，每次发现临时封禁 ID 10 天以上，300 天以下。</p>
+</li>
+<li>
+<p>管理员每周至少上线 5 分钟，若每周上线时间小于 5 分钟的，每月罚款 10000 游戏币。</p>
+<p>如有特殊情况</p>
+</li>
+<li>
+<p>管理组组长（服主）有权任免管理。但，管理的任免需要由至少 3 名普通玩家同意方可实施。</p>
+</li>
+<li>
+<p>管理员在经过管理组组长的批准后，可以在批准的范围内合理使用 OP。</p>
+</li>
+</ol>
+<h4 id="第四章-处罚的决定与实施">第四章 处罚的决定与实施</h4>
+<ol>
+<li>
+<p>服务器实施举报制度，任何玩家在发现其它玩家违反规则的，可以进行举报。</p>
+<p>玩家可以通过游戏内邮件、游戏内私聊、QQ 内私聊和 QQ 内群聊进行举报。</p>
+<p>玩家的举报需要提供如下信息：</p>
+<ul>
+<li>被举报人</li>
+<li>证据</li>
+<li>违反的条例（第几章第几条）</li>
+<li>举报人认为被举报人应有的处罚</li>
+</ul>
+<p>若玩家提供的信息中不全部包含前款所述的信息（最后一条除外），管理组有权不予受理。</p>
+<p>第二款所述证据包括：</p>
+<ul>
+<li>游戏截图</li>
+<li>聊天记录</li>
+<li>插件记录</li>
+<li>其它管理组认可的证据</li>
+</ul>
+</li>
+<li>
+<p>玩家在举报时，若因能力、权限不足，导致无法收集本章第一条第二款所述的全部信息的（最后一条除外），可以寻求管理组的协助。管理组应当给予适当的协助。</p>
+</li>
+<li>
+<p>玩家举报后，管理组应第一时间确定是否受理。</p>
+<p>若确定受理，则应在一周内完成如下工作：</p>
+<ul>
+<li>整理证据并验证其真伪</li>
+<li>问询当事双方</li>
+<li>确定被举报人的违规行为适用的条款及其处罚</li>
+<li>出具《违规行为举报告知书》并公示</li>
+<li>经当事双方、管理组和其他玩家确认处罚无误后，实施处罚。</li>
+</ul>
+</li>
+<li>
+<p>《违规行为举报告知书》应当包含如下内容：</p>
+<ul>
+<li>违规的行为</li>
+<li>违规行为适用的条款</li>
+<li>处罚</li>
+<li>证据</li>
+<li>实施人</li>
+</ul>
+<p>处罚的实施人一般为管理组指定的管理员。在特殊情况下，管理组可以指定普通玩家作为实施人。</p>
+</li>
+<li>
+<p>处罚决定后，实施人应在 5 日内完成处罚的实施。</p>
+<p>实施人未在指定日期实施的，举报人可以向管理组申请强制实施或更换实施人。</p>
+</li>
+<li>
+<p>对于封禁类的处罚，管理组实施处罚的管理员应当像被封禁用户出具《封禁告知书》。</p>
+<p>《封禁告知书》应当包含如下内容：</p>
+<ul>
+<li>封禁的原因</li>
+<li>封禁的实施人</li>
+<li>封禁的时长</li>
+</ul>
+</li>
+<li>
+<p>被举报人如对处罚结果有异议的，可以向管理组提出申诉。</p>
+<p>申诉须在《违规行为举报告知书》公示期间提出。</p>
+<p>申诉人需要提供本章第一条第二款所述的信息。</p>
+</li>
+</ol>
+<h4 id="第五章-附则">第五章 附则</h4>
+<ol>
+<li>本条例自 2023 年 7 月 25 日启实施。</li>
+<li>管理组保留对该条款进行修改、解释的权力。</li>
+</ol>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[关于]]></title>
+        <id>https://blog.oiercraft.top/post/about/</id>
+        <link href="https://blog.oiercraft.top/post/about/">
+        </link>
+        <updated>2019-01-25T11:09:48.000Z</updated>
+        <content type="html"><![CDATA[<h3 id="关于本服">关于本服</h3>
+<p>OIer Craft 是一个小众慈善的纯净生存服务器，服主是 <ruby>ReverBer<rt>老王</rt></ruby>。</p>
+<p>本服务器在 <time>2021 年 8 月 3 日</time>正式开服。</p>
+<p>本服务器秉持着自由、开放的理念，保证无任何氪金付费内容，无领地等插件，只为一个更纯真的 Minecraft 服务器体验。</p>
+<hr>
+<h3 id="技术相关">技术相关</h3>
+<p>本服务器是在服主自费购买的华为 RH2288H V2 服务器上搭建的。</p>
+<p>配备了两块 Intel Xeon CPU，12 核 24 线程，64GB 的超大内存，保证了服务器的稳定流畅。</p>
+<p>我们使用 Sukura FRP 进行内网穿透服务，在全国各地都有线路，保证了地域性与适切性。</p>
+<p>本服配备了主流插件，包括 Ess，Coreprotect 等，保证了服务器的可玩性与游玩的便捷性，同时还可以准确查出玩家的一言一行，保证了每位玩家的个人利益。完善的公约也保证了游玩 OIer Craft 的游戏体验。</p>
+<p>本服务器仍然招收管理，如果你对开服颇有经验，烦请联系服主 QQ: 2657378864。</p>
+<!--
+
+运行服务器配置：
+
+|   项目   |       配置        |
+| :------: | :---------------: |
+|  服务器  | Huawei RH2288H V2 |
+|   CPU    |    Intel Xeon     |
+|   内存   |       64GB        |
+|   硬盘   |                   |
+| 内网穿透 |    Sukura FRP     |
+
+Minecraft 服务器配置：
+
+|   项目    |             配置             |
+| :-------: | :--------------------------: |
+| 游戏版本  |     Java Edition 1.16.5      |
+| Java 版本 |                              |
+|   架构    |                              |
+|   插件    |                              |
+| 账户验证  | 正版登录、外置登录、离线登录 |
+
+-->
+<hr>
+<h3 id="火速捐款">火速捐款</h3>
+<figure data-type="image" tabindex="1"><img src="https://i.loli.net/2021/10/03/ZrkWD2m4P7Fd8hj.jpg" alt="微信支付" loading="lazy"></figure>
+<p>捐完钱可以发邮件到 reverber@qq.com，说明是您捐的钱，不过如果您想捐钱不留名也可以 /se</p>
+]]></content>
+    </entry>
+</feed>

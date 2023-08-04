@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" >
+
+<title>新人指南 | OIer Craft&#39;s Blog</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://blog.oiercraft.top/favicon.ico?v=1691140300174">
+<link rel="stylesheet" href="https://blog.oiercraft.top/styles/main.css">
+
+
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+
+
+    <meta name="description" content="欢迎来到 OIerCraft 服务器，这里是新手指南。
+
+开始游玩
+服主是 ReverBer，人称老王。
+目前 OIercraft 是三周目（OIercraft III）。
+QQ 群号：865811340。
+进入服务器
+刚进入服务器，你会无..." />
+    <meta name="keywords" content="新手指北" />
+  </head>
+  <body>
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://blog.oiercraft.top">
+        <img src="https://blog.oiercraft.top/images/avatar.png?v=1691140300174" class="site-logo">
+        <h1 class="site-title">OIer Craft&#39;s Blog</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div>
+      
+        
+          <a href="/" class="site-nav">
+            首页
+          </a>
+        
+      
+        
+          <a href="/archives" class="site-nav">
+            归档
+          </a>
+        
+      
+        
+          <a href="/tags" class="site-nav">
+            标签
+          </a>
+        
+      
+        
+          <a href="/post/about" class="site-nav">
+            关于
+          </a>
+        
+      
+    </div>
+  </div>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+    <div class="site-description">
+      <b>自由 / 开放 / 包容</b>
+    </div>
+    <div class="site-footer">
+      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://blog.oiercraft.top/atom.xml" target="_blank">RSS</a>
+    </div>
+  </div>
+</div>
+
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="post-detail">
+            <h2 class="post-title">新人指南</h2>
+            <div class="post-date">2023-07-06</div>
+            
+            <div class="post-content" v-pre>
+              <p>欢迎来到 OIerCraft 服务器，这里是新手指南。</p>
+<!-- more -->
+<h2 id="开始游玩">开始游玩</h2>
+<p>服主是 ReverBer，人称老王。</p>
+<p>目前 OIercraft 是三周目（OIercraft III）。</p>
+<p>QQ 群号：865811340。</p>
+<h3 id="进入服务器">进入服务器</h3>
+<p>刚进入服务器，你会无法移动，这是因为服务器使用了 <code>authme</code> 插件，使用命令 <code>/register 密码 重复密码</code> 以注册，下次登陆用 <code>/login</code> 密码。如果登陆时间过长会被踢出服务器，这时不用着急，重新进入服务器即可。</p>
+<p>理论上主城空余地皮或主城周边区域均可建房，然而由于主城过度开发，矿物较为缺乏（？），建议到离主城有一定距离的位置定居。同时，强烈建议在家处设置传送点（home），便于日后回家。关于设置传送点，见“常用命令”。</p>
+<p>注意：后期出生点可能会炸空置域（真的能有能力炸空置域吗），因此真的不建议直接将房子或重要财物放在主城。</p>
+<p>同时你也必须遵守规则。你的行为需要遵守 <a href="../oic-rule">OIC 法典</a>，否则将会受到相应处罚（？）。</p>
+<h3 id="主要插件">主要插件</h3>
+<p>本服为纯净生存，指不添加领地等插件，只保留基础插件，如 <code>tpa</code> 等，方便玩家游玩。</p>
+<p>下面是一些重要插件：</p>
+<ul>
+<li>
+<p><strong>Authme</strong><br>
+用于保存玩家登录信息。</p>
+</li>
+<li>
+<p><strong>AdvancedMotd</strong><br>
+用于显示服务器信息</p>
+</li>
+<li>
+<p><strong>Coreprotect</strong><br>
+可以记录玩家的活动，如开箱子或破坏方块，可以查出恶意破坏的玩家。<br>
+所以如果你的个人财产受到损害请及时联系老王帮你查询。</p>
+</li>
+<li>
+<p><strong>Ess 基础插件</strong><br>
+提供服务器基础指令。</p>
+</li>
+<li>
+<p><strong>Skins</strong><br>
+在离线模式下显示皮肤。</p>
+</li>
+<li>
+<p><strong>Tabtps</strong><br>
+用于显示服务器的 Tps 和 Mspt 等。</p>
+</li>
+<li>
+<p><strong>箱子锁</strong><br>
+将箱子（门、熔炉等）上锁，使得他人无法打开或破坏。<br>
+使用方法：用告示牌右键点击箱子即可上锁。</p>
+</li>
+<li>
+<p><strong>QuickShop</strong><br>
+商店插件，用于玩家之间交易。<br>
+<strong>使用方法</strong>：<br>
+卖：用你要卖的东西左键点击箱子，在聊天框内输入单价，随后放入物品即可；<br>
+买：左键点击箱子并在聊天框内输入数量即可。<br>
+<strong>可以在系统商店卖矿物获得游戏币。</strong></p>
+</li>
+</ul>
+<h3 id="常用命令">常用命令</h3>
+<ul>
+<li>
+<p><code>/tpa &lt;name&gt;</code><br>
+请求传送到名字为 <code>&lt;name&gt;</code> 的玩家所在的位置。</p>
+</li>
+<li>
+<p><code>/tpahere &lt;name&gt;</code><br>
+请求把名字为 <code>&lt;name&gt;</code> 的玩家传送到你所在的位置。</p>
+</li>
+<li>
+<p><code>/sethome &lt;name&gt;</code><br>
+将当前所在位置设置为 home，名字为 <code>&lt;name&gt;</code>。</p>
+</li>
+<li>
+<p><code>/home &lt;name&gt;</code><br>
+传送到名字为 <code>&lt;name&gt;</code> 的 home。</p>
+</li>
+<li>
+<p><code>/rmhome &lt;name&gt;</code><br>
+删除名字为 <code>&lt;name&gt;</code> 的 home。</p>
+</li>
+<li>
+<p><code>/back</code><br>
+回到上一次传送的地点。注意无法回到上次死亡地点。</p>
+</li>
+<li>
+<p><code>/tell &lt;name&gt; &lt;message&gt;</code><br>
+向名字为 <code>&lt;name&gt;</code> 的玩家私信。</p>
+</li>
+<li>
+<p><code>/pay &lt;name&gt; &lt;money&gt;</code><br>
+向名字为 <code>&lt;name&gt;</code> 的玩家转账，转 <code>&lt;money&gt;</code> 游戏币。</p>
+</li>
+<li>
+<p><code>/tpr</code><br>
+随机传送。</p>
+</li>
+<li>
+<p><code>/co i</code><br>
+CoreProtect 查询命令，输入一次进入查询模式，再输入一次退出。<br>
+在查询模式下，左键点击方块可以查询到方块放置 / 摧毁记录（如果要查询位置没有方块需放置一个），右键点击方块可以查询箱子等的放入 / 取出记录。<br>
+如图为查询的效果：</p>
+</li>
+<li>
+<p><code>/spawn </code><br>
+回到服务器出生点。</p>
+</li>
+</ul>
+<hr>
+<h2 id="关于服务器">关于服务器</h2>
+<p>服务器官网：<a href="https://oiercraft.top">https://oiercraft.top</a></p>
+<h3 id="软件信息">软件信息</h3>
+<p>服务器版本为 Java 1.18.2，无正版验证， 基于 Spigot 核心开服。</p>
+<p>目前服务器运行在 rh2288hv2 fusionserver。</p>
+<h3 id="硬件信息">硬件信息</h3>
+<p>huawei rh2288hv2 e5 2690*2 88RAM</p>
+<h2 id="帮助我们改进">帮助我们改进</h2>
+<p>如果你对服务器机制有什么疑问，请联系 ReverBer。</p>
+<p>如果你对服务器有建议，请联系 ReverBer。修改游戏机制或添加新的插件之类之类，如果我认为有必要，会在群里发起投票。</p>
+<p>就是这样！每个人都是 OIerCraft 的一份子，OIerCraft 实施表决制。</p>
+<p><strong>火速进入服务器开始游玩！</strong></p>
+
+            </div>
+            
+              <div class="tag-container">
+                
+                  <a href="https://blog.oiercraft.top/tag/E10vFOzE_/" class="tag">
+                    新手指北
+                  </a>
+                
+              </div>
+            
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="https://blog.oiercraft.top/post/oic-rule/">
+                  <h3 class="post-title">
+                    OIC 法典
+                  </h3>
+                </a>
+              </div>
+            
+
+            
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script type="application/javascript">
+
+AOS.init();
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+  <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>
+    hljs.initHighlightingOnLoad()
+  </script>
+
+
+
+
+
+  </body>
+</html>
